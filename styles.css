@@ -1,32 +1,70 @@
-.container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: baseline;
-    align-content: center;
-    gap: 10px;
-}
-
-.item{
-    order:2;
-}
 
 html {
-    background-image: url('1.jpeg');
+    background-image: url('sunray.jpeg');
     background-size: cover;
 }
 
-h1{
-    color: black;
-    font-size: 10em;
+.boxone{
+    display:flex; 
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(255, 36, 145);
+}
+.pics{
+    display:flex;
+    justify-content: space-evenly;
 }
 
-#nav{
-    background: image("1.jpeg");
-    overflow: auto;
+.border {
+    border: 6px solid rgb(238, 36, 238);
+    border-radius: 30px;
+  }
+
+h1{
+    color: rgb(228, 50, 228);
+    font-size: 10em;
+    display:flex;
+    justify-content: space-evenly;
 }
-#nav li{
-    float:none;
-    padding: 10px;
+h3{
+    color:rgb(238, 36, 238);
+    font-size: 10px;
+    display:flex;
+    justify-content: flex-start;
+}
+
+h2{
+    color: rgb(36, 191, 238);
+    font-size:3em;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.contact{
+    display:flex; 
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(255, 36, 218);
+}
+
+.header{
+    border: 2px solid rgb(36, 191, 238);
+    border-radius: 5px;
+}
+.info{
+    display:flex; 
+    justify-content: space-evenly;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+.photos{
+    display:flex; 
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
 }
