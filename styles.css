@@ -1,0 +1,81 @@
+
+html {
+    background-image: url('sunray.jpeg');
+    background-size: cover;
+}
+
+.boxone {
+    display: flex; 
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(255, 36, 145);
+}
+.pics {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.border {
+    border: 6px solid rgb(238, 36, 238);
+    border-radius: 30px;
+  }
+
+h1 {
+    color: rgb(228, 50, 228);
+    font-size: 10em;
+    display: flex;
+    justify-content: space-evenly;
+}
+h3 {
+    color:rgb(238, 36, 238);
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+h2 {
+    color: rgb(36, 191, 238);
+    font-size: 3em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact {
+    color: rgb(255, 36, 218);
+}
+
+.header {
+    border: 2px solid rgb(36, 191, 238);
+    border-radius: 5px;
+}
+
+.secondary-page {
+    display: flex; 
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: 30px;
+}
+.info {
+    color: rgb(0, 0, 0);
+}
+.photos {
+    display: flex; 
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background: ivory;
+}
+.animate {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: lavenderblush;
+}

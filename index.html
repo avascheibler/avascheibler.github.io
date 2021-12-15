@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Getting started with CSS</title>
+</head>
+
+<body>
+
+    <h1 class="border">AVA'S WEBSITE!</h1>
+    <div class="boxone"> 
+        <div> 
+            <a href="aboutme.html"> about me 
+            </a>
+        </div> 
+        <div>  
+            <a href="resumé.html">resumé 
+            </a>  
+        </div> 
+    </div> 
+    <div class="boxone"> 
+        <div> 
+            <a href="photos.html"> photos
+            </a>
+        </div> 
+        <div> 
+            <a href="contact.html"> contact 
+            </a>
+        </div> 
+    </div>  
+    <div id="container"> 
+        <div id="animate">
+            id=setInterval(frame,5);
+            function frame(){
+                let id=null;
+                const elem = document.getElementByID("animate");
+                let pos=0;
+                id = setInterval(frame,5);
+                function frame(){
+                    if (pos==350){
+                        clearInterval(id);
+                    }
+                    else{
+                        pos++;
+                        elem.style.top = pos + 'px';
+                        elem.style.left = post + ;px';
+                    }
+                }
+            }
+        </div>
+    </div>
+
+</body>
+
+</html>
